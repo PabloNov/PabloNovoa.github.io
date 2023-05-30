@@ -1,0 +1,193 @@
+body {
+    background-color: white;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+  }
+  
+  header {
+    position: sticky;
+    top: 0;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  nav h1 {
+    margin-right: auto;
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  body {
+    background-color: white;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+  }
+  
+  #dynamic-text {
+    text-align: center;
+    padding: 20px;
+    animation: rotateText 3s infinite;
+  }
+  
+  @keyframes rotateText {
+    0% {
+      opacity: 0;
+    }
+    20% {
+      opacity: 1;
+    }
+    80% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+
+  section {
+    padding: 20px;
+    clear: both; 
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+
+  .skill {
+    margin-bottom: 10px;
+  }
+  
+  .skill-name {
+    font-weight: bold;
+  }
+  
+  .bar-container {
+    width: 100%;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+  }
+  
+  .bar {
+    height: 20px;
+    background-color: #f1a025;
+    border-radius: 5px;
+  }
+  
+
+  .work {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-size:contain;
+    width: calc(50% - 20px);
+    float: left;
+    margin-right: 20px;
+  }
+
+  .text-container {
+    max-width: 50%;
+    word-wrap: break-word;
+  }
+
+  #work1 {
+    background-image: url('https://kdvr.com/wp-content/uploads/sites/11/2022/08/000_the-best-connect-4-game-758023.jpg');
+    background-size:cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 50% 100%;
+    color: #d8d8d8;
+  }
+ 
+  #work1.text-container {
+    max-width: 5%;
+    word-wrap: break-word;
+  }
+  
+  #work2 {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZc_Rzsy4SnaYtvJ6I0RISbF0gIb2N0XYBZA&usqp=CAU');
+    background-size:cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 50% 150%;
+    color: #000;
+  }
+  
+  #work3 {
+    background-image: url('https://securityintelligence.com/wp-content/uploads/2018/10/si-eight-character-password-feature.jpg'); 
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 50% 150%;
+    color: #fff;
+  }
+  
+  #work4 {
+    background-image: url('https://i.pinimg.com/originals/24/62/43/2462433399c8196ec0e8e42d98db1c22.png');
+    background-position: right;
+    background-repeat:no-repeat;
+    background-size: 50% 150%;
+    color: #a03e3e;
+  }
+
+
+  
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 20px auto;
+  }
+  
+  
+  input, textarea {
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+  
+  button {
+    padding: 10px 20px;
+  }
+  
+  h2 {
+    text-align: left;
+  }
+  
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 25%;
+    background-color: rgb(95, 97, 95);
+    color: white;
+    text-align: left;
+  }
+  
